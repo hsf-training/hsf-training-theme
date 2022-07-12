@@ -8,8 +8,13 @@
 {% assign carpentry = 'Library Carpentry' %}
 {% elsif site.carpentry == 'cp' %}
 {% assign carpentry = 'The Carpentries' %}
+<<<<<<< HEAD
+{% elsif site.carpentry == 'incubator' %}
+{% assign carpentry = 'The Carpentries Incubator' %}
+=======
 {% elsif site.carpentry == 'hsf' %}
 {% assign carpentry = 'Hep Software Foundation' %}
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
 {% endif %}
 
 {% if site.carpentry == 'hsf' %}

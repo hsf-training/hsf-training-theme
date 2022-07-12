@@ -4,7 +4,10 @@
 .ipynb_checkpoints
 .sass-cache
 .jekyll-cache/
+<<<<<<< HEAD
+=======
 .jekyll-metadata
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
 __pycache__
 _site
 .Rproj.user

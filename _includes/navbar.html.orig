@@ -32,9 +32,19 @@
       <a href="{{ site.carpentries_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/cp-logo-blue.svg %}" alt="The Carpentries logo" />
       </a>
+<<<<<<< HEAD
+      {% elsif site.carpentry == "incubator" %}
+      <a href="{{ relative_root_path }}{% link index.md %}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/incubator-logo-blue.svg %}" alt="The Carpentries Incubator logo" />
+      </a>
+      {% elsif site.carpentry == "lab" %}
+      <a href="{{ relative_root_path }}{% link index.md %}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/carpentrieslab.svg %}" alt="The Carpentries Lab" />
+=======
       {% elsif site.carpentry == "hsf" %}
       <a href="{{ site.hsf_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/hsf-logo.png%}" alt="The Carpentries logo" />
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
       </a>
       {% endif %}
 
@@ -84,9 +94,13 @@
             {% else %}
               {% assign extra = lesson_extra %}
             {% endif %}
+<<<<<<< HEAD
             {% unless extra.exclude %}
               <li><a href="{{ relative_root_path }}{{ extra.url }}">{{ extra.title }}</a></li>
             {% endunless %}
+=======
+            <li><a href="{{ relative_root_path }}{{ extra.url }}">{{ extra.title }}</a></li>
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
             {% endfor %}
           </ul>
         </li>

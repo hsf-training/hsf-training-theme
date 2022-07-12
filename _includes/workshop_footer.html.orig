@@ -21,7 +21,11 @@
     </div>
     <div class="col-md-6" align="right">
       <h4>
+<<<<<<< HEAD
+	<a href="mailto:{{ site.email }}">Contact The Carpentries</a>
+=======
 	<a href="mailto:{{ site.email }}">Contact (public mailing list)</a>
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
       </h4>
     </div>
   </div>

@@ -26,12 +26,17 @@
 	{% elsif site.carpentry == "cp" %}
 	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
 	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
+<<<<<<< HEAD
+        {% elsif site.carpentry == "incubator" %}
+        Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> {{ 'now' | date: "%Y" }} by <a href="{{ relative_root_path }}{% link CITATION  %}">the authors</a>.
+=======
     {% elsif site.carpentry == "hsf" %}
 	Content licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2020–{{ 'now' | date: "%Y" }}
 	by <a href="{{ site.hsf_site }}">HEP Software foundation</a>
     <br>
 	Lesson setup licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
 	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
 	{% endif %}
     </div>
     <div class="col-md-6 help-links" align="right">
@@ -52,10 +57,7 @@
 	<a href="mailto:{{ site.email }}">Contact (public mailing list)</a>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12" align="center">
-      Using <a href="https://github.com/carpentries/styles/">The Carpentries style</a>
-      version <a href="https://github.com/carpentries/styles/releases/tag/v9.5.3">9.5.3</a>.
-    </div>
-  </div>
+  <p class="text-muted text-right">
+    <small><i>Using <a href="https://github.com/carpentries/carpentries-theme/">The Carpentries theme</a> &mdash; Site last built on: {{ site.time }}.</i></small>
+  </p>
 </footer>

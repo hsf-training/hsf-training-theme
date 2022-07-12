@@ -1,0 +1,19 @@
+---
+permalink: /aio/index.html
+---
+
+{% comment %}
+<<<<<<< HEAD
+As a maintainer, you do not need to edit this file.
+If you notice that something does not work, please 
+open an issue: https://github.com/carpentries/styles/issues/new
+=======
+As a maintainer, you don't need to edit this file.
+If you notice that something doesn't work, please
+open an issue: <https://github.com/hsf-training/hsf-styles/issues/new>
+>>>>>>> 3aebf0f8bae6c06b3788a8352cb7128dcec42244
+{% endcomment %}
+
+{% include base_path.html %}
+
+{% include aio-script.md %}
