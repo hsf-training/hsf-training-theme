@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "carpentries-theme"
+  spec.name          = "hsf-training-theme"
   spec.version       = "0.1.0"
-  spec.authors       = ["The Carpentries Team"]
-  spec.email         = ["team@carpentries.org"]
+  spec.authors       = ["HEP Software Foundation"]
+  spec.email         = ["hsf-training-wg@googlegroups.com"]
 
-  spec.summary       = %q{A theme ready to use for The Carpentries lessons.}
-  spec.homepage      = "https://github.com/carpentries/carpentries-theme"
+  spec.summary       = %q{A theme ready to use for HSF Training lessons.}
+  spec.homepage      = "https://github.com/hsf-training/hsf-training-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
