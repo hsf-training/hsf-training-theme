@@ -13,5 +13,5 @@ The repository is based on the [Carpentries Jekyll theme](https://jekyllrb.com/d
 
 ## How this repository should be maintained
 
-Regularly pull from the HSFD styles repository (until we phase it out)
+Regularly pull from the HSF styles repository (until we phase it out)
 and the Carpentries Jekyll theme.
