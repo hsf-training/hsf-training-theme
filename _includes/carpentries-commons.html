@@ -1,5 +1,7 @@
 {% if site.carpentry == "swc" or site.carpentry == "dc" or
-   site.carpentry == "lc" or site.carpentry == "cp" or site.carpentry == "hsf" %}
+   site.carpentry == "lc" or site.carpentry == "cp" or site.carpentry == "hsf" 
+   or site.carpentry == "intersect"
+%}
 
 {% comment %}
 We have no notice for official lessons
@@ -27,7 +29,7 @@ Should we add a notice for Carpentries Lab?
 <div class="alert alert-danger text-center" role="alert">
   Invalid value for variable <code>carpentry</code> defined in
   <code>_config.yml</code>. Current value: <code>{{ site.carpentry }}</code>
-  allowed values: ("swc", "dc", "lc", "cp", "incubator", "lab")
+  allowed values: ("swc", "dc", "lc", "cp", "incubator", "lab", "intersect")
 </div>
 
 
