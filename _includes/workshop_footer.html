@@ -23,7 +23,11 @@
     </div>
     <div class="col-md-6" align="right">
       <h4>
+    {% if site.carpentry == "intersect" %}
+    <a href="https://intersect-training.org/contact/">Contact</a>
+    {% else %}
 	<a href="mailto:{{ site.email }}">Contact (public mailing list)</a>
+    {% endif %}
       </h4>
     </div>
   </div>

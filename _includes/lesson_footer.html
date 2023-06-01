@@ -55,7 +55,11 @@
 	/
 	<a href="{{ repo_url }}/blob/{{ source_branch }}/CITATION" data-checker-ignore>Cite</a>
 	/
-	<a href="mailto:{{ site.email }}">Contact (public mailing list)</a>
+     {% if site.carpentry == "intersect" %}
+     <a href="https://intersect-training.org/contact/">Contact</a>
+     {% else %}
+        <a href="mailto:{{ site.email }}">Contact (public mailing list)</a>
+     {% endif %}
     </div>
   </div>
   <div class="row">
