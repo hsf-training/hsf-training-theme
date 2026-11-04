@@ -44,7 +44,7 @@ Under the following terms:
   permissions necessary for your intended use. For example, other
   rights such as publicity, privacy, or moral rights may limit how you
   use the material.
-        
+
 ## Software
 
 Except where otherwise noted, the example programs and other software
